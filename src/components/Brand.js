@@ -6,6 +6,7 @@ const Brand = styled.p`
   font-weight: ${(props) => props.theme.fontBold};
   text-align: ${(props) => props.textAlign || "initial"};
   line-height: 4rem;
+  user-select: none;
 
   @media (min-width: ${(props) => props.theme.screenSizeLg}) {
     font-size: ${(props) => props.theme.textSizeLarge};
